@@ -1,0 +1,8 @@
+# Ignore Python/Node junk and large model files
+node_modules/
+__pycache__/
+.next/
+*.pt
+*.h5
+*.pkl
+backend/models/
