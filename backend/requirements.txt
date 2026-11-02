@@ -6,3 +6,6 @@ torch>=2.0.0
 torchvision>=0.15.0
 pydantic>=2.0.0
 sqlalchemy>=2.0.0
+openai>=1.0.0
+langchain
+crewai
