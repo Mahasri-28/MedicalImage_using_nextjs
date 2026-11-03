@@ -25,10 +25,10 @@ export default function UploadAnalyzer() {
     formData.append('file', image);
 
     try {
-      const res = await fetch("/api/analyze", {
-        method: 'POST',
-        body: formData,
-      });
+      const res = await fetch("https://medicalimage-using-nextjs-3.onrender.com", {
+      method: 'POST',
+      body: formData,
+    });
       
       if (!res.ok) throw new Error('Analysis failed');
       const data = await res.json();
